@@ -1,0 +1,14 @@
+# ReportSaathi Backend Dependencies (Verified for Python 3.13)
+Django>=5.1.3,<5.2
+djangorestframework>=3.15.2
+django-cors-headers>=4.6.0
+djangorestframework-simplejwt>=5.3.1
+python-dotenv>=1.0.1
+
+# Document Processing & OCR (Stage 4)
+PyMuPDF>=1.24.0
+Pillow>=10.4.0
+pytesseract>=0.3.10
+
+# AI Explanations & Google Gemini Integration (Stage 5)
+google-genai>=3.3.0

@@ -1,0 +1,65 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+env/
+
+# Django
+*.sqlite3
+*.log
+backend/media_private/*
+!backend/media_private/.gitkeep
+backend/static_collected/
+
+# Environment Variables & Secrets
+.env
+*.env
+!.env.example
+*.pem
+*.key
+
+# Node & Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Database backups
+*.sqlite3*
+*.db
+*.db-*
+
